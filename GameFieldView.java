@@ -18,7 +18,7 @@ public class GameFieldView extends JPanel {
         _field = field;
 
         setLayout(new GridLayout(_field.height(), _field.width()));
-
+//hello
         Dimension fieldDimension = new Dimension(CellWidget.CELL_SIZE*_field.width(), CellWidget.CELL_SIZE*_field.height());
 
         setPreferredSize(fieldDimension);
