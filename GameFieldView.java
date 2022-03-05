@@ -18,7 +18,7 @@ public class GameFieldView extends JPanel {
         _field = field;
 
         setLayout(new GridLayout(_field.height(), _field.width()));
-
+//hello
         Dimension fieldDimension = new Dimension(CellWidget.CELL_SIZE*_field.width(), CellWidget.CELL_SIZE*_field.height());
 
         setPreferredSize(fieldDimension);
@@ -28,7 +28,7 @@ public class GameFieldView extends JPanel {
         for (Cell c: _field) {
             add( new CellWidget( c ) );
         }
-
+//done
         addKeyListener( new KeyController() );
         setFocusable(true);
     }
