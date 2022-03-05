@@ -42,7 +42,7 @@ public class GameFieldView extends JPanel {
         @Override
         public void keyPressed(KeyEvent e) {
             int code = e.getKeyCode();
-
+//na
             if(code == KeyEvent.VK_UP) {         // перемещаемся вверх
                 _field.robot().move(Direction.north());
             }
