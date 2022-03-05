@@ -9,7 +9,7 @@ import Model.units.Robot;
 public class GameField implements Iterable<Cell> {
 
     // ---------------------- Размеры -----------------------------
-
+	// myakinina 2 myakinina
     private final int _width;
     private final int _height;
 
